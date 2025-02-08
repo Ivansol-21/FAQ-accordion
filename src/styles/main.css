@@ -1,0 +1,15 @@
+.respuesta-1 {
+    display: none;
+}
+.respuesta-2 {
+    display: none;
+}
+.respuesta-3 {
+    display: none;
+}
+.respuesta-4 {
+    display: none;
+}
+.visible {
+    display: block;
+}
