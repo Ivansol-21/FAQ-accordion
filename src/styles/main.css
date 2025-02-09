@@ -59,6 +59,7 @@ main {
     max-inline-size: 37.5rem;
     color: var(--Dark-purple);
     margin: 0 1.438rem;
+    box-shadow: 0 20px 50px -10px rgba(47, 21, 51, 0.1);;
 }
 .content_item {
     padding: 1.75rem 0 1.75rem 0;
@@ -100,7 +101,7 @@ main {
     line-height: 150%;
     color: var(--Grayish-purple);
 }
-.respuesta-padding {
+.respuesta-margin {
     margin: 2rem 0 0 0;
 }
 .respuesta-1-none {
@@ -127,5 +128,11 @@ main {
     }
     .content-cuestions {
         padding: 1.438rem;
+    }
+    .content_item {
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .respuesta-margin {
+        margin:1.5rem 0 0 0;
     }
 }
