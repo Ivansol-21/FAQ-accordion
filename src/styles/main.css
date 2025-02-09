@@ -51,7 +51,7 @@ main {
 /* Contenedor de las preguntas */
 .content-cuestions {
     position: absolute;
-    top: -27.77%;
+    top: -26%;
     background-color: var(--White);
     list-style-type: none;
     padding: 2.5rem;
@@ -62,7 +62,7 @@ main {
     box-shadow: 0 20px 50px -10px rgba(47, 21, 51, 0.1);;
 }
 .content_item {
-    padding: 1.75rem 0 1.75rem 0;
+    padding: 1.5rem 0 1.5rem 0;
 }
 .content_item-padding {
     padding-block-end: 0;
