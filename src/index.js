@@ -15,11 +15,11 @@ document.addEventListener('click', (e) => {
 
     // Evento click segun corresponda
     if(target.matches('.pregunta-1') || target.matches('.icon-plus-1')){
-        $respuesta1.classList.toggle('visible');
-        if($respuesta1.classList.contains('visible')){
-            $img1.setAttribute('src', './src/assets/images/icon-minus.svg');
-        }else{
+        $respuesta1.classList.toggle('respuesta-1-none');
+        if($respuesta1.classList.contains('respuesta-1-none')){
             $img1.setAttribute('src', './src/assets/images/icon-plus.svg');
+        }else{
+            $img1.setAttribute('src', './src/assets/images/icon-minus.svg');
         }
     }
     /* ----------------------------------------------------------------------- */
