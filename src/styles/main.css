@@ -104,16 +104,11 @@ main {
 .respuesta-margin {
     margin: 2rem 0 0 0;
 }
-.respuesta-1-none {
+.no-visible {
     display: none;
 }
-.respuesta-2 {
-    display: none;
-}
-.respuesta-3 {
-    display: none;
-}
-.respuesta-4 {
+
+.respuesta {
     display: none;
 }
 .visible {
